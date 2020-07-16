@@ -1,0 +1,22 @@
+{
+  "name": "black-jackserver-side",
+  "version": "1.0.0",
+  "description": "black-jack-server-side",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node dist/server.js",
+    "build": "tsc",
+    "clean": "rmdir /Q /S dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "tslint": "^5.12.1"
+  }
+}
